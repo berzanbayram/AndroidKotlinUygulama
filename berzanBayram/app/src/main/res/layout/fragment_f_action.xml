@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".f_action">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#2196F3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/actionYazi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:clickable="true"
+            android:text="TextView"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/actionButon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:textSize="28sp" />
+
+        <ImageView
+            android:id="@+id/actionResim"
+            android:layout_width="186dp"
+            android:layout_height="171dp"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/actionEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:text="EditText"
+            android:textSize="36sp" />
+
+
+    </LinearLayout>
+</FrameLayout>
